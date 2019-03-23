@@ -11,7 +11,8 @@
  * GNU General Public License for more details.
  */
 
-#include "dsi-panel-tmotm9605a-qhd-video.dtsi"
+#include "dsi-panel-tmotm9605a-qhd-video-ch.dtsi"
+#include "dsi-panel-boeotm9605a-qhd-video-ch.dtsi"
 #include "msm8916-camera-sensor-mtp-pd1510.dtsi"
 
 / {
@@ -555,7 +556,8 @@
 };
 
 &mdss_dsi0 {
-	qcom,dsi-pref-prim-pan = <&dsi_tmotm9605a_qhd_video>;
+	qcom,dsi-pref-prim-pan = <&dsi_tmotm9605a_qhd_video_ch>;
+	qcom,dsi-pref-sub-pan = <&dsi_boeotm9605a_qhd_video_ch>;
 	qcom,platform-enable-gpio = <&msm_gpio 97 0>;
 	qcom,platform-reset-gpio = <&msm_gpio 25 0>;
 	qcom,platform-bklight-en-gpio = <&msm_gpio 8 0>;
