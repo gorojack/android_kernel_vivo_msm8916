@@ -11,7 +11,7 @@
 */
 
 &mdss_mdp {
-  dsi_boehx8389c_qhd_video_ch: qcom,mdss_dsi_boehx8389c_qHD_video {
+  dsi_boehx8389c_qhd_video : qcom,mdss_dsi_boehx8389c_qHD_video {
 		qcom,mdss-dsi-panel-name = "boehx8389c qHD video mode dsi panel";
 		qcom,mdss-dsi-project-name = "pd1510";
 		qcom,mdss-dsi-panel-controller = <&mdss_dsi0>;
