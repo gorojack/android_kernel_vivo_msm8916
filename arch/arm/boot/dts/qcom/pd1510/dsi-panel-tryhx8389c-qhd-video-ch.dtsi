@@ -11,9 +11,8 @@
 */
 
 &mdss_mdp {
-	dsi_tryhx8389c_qhd_video_ch:qcom,mdss_dsi_tryhx8389c_qHD_video_ch {
+	dsi_tryhx8389c_qhd_video_ch: qcom,mdss_dsi_tryhx8389c_qHD_video_ch {
 		qcom,mdss-dsi-panel-name = "tryhx8389c qHD video mode dsi panel";
-		qcom,mdss-dsi-project-name = "pd1510";
 		qcom,mdss-dsi-panel-controller = <&mdss_dsi0>;
 		qcom,mdss-dsi-panel-type = "dsi_video_mode";
 		qcom,mdss-dsi-panel-destination = "display_1";
