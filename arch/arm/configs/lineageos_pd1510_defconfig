@@ -266,12 +266,6 @@ CONFIG_SLIP_COMPRESSED=y
 CONFIG_SLIP_MODE_SLIP6=y
 CONFIG_USB_USBNET=y
 CONFIG_USB_NET_DM9601=y
-#----------------------------------分割线--------------------------------------
-CONFIG_WCNSS_CORE=m
-CONFIG_WCNSS_CORE_PRONTO=m
-CONFIG_WCNSS_MEM_PRE_ALLOC=m
-CONFIG_WCNSS_REGISTER_DUMP_ON_BITE=y
-#-----------------------------------------------------------------------------
 CONFIG_INPUT_POLLDEV=y
 CONFIG_INPUT_EVDEV=y
 CONFIG_INPUT_KEYRESET=y
@@ -500,13 +494,11 @@ CONFIG_ANDROID_INTF_ALARM_DEV=y
 CONFIG_ONESHOT_SYNC=y
 CONFIG_ION=y
 CONFIG_ION_MSM=y
-#-----------------------------------------------------------------------------
-CONFIG_PRONTO_WLAN=m
+CONFIG_PRIMA_WLAN=y
 CONFIG_PRIMA_WLAN_LFR=y
 CONFIG_PRIMA_WLAN_OKC=y
 CONFIG_PRIMA_WLAN_11AC_HIGH_TP=y
 CONFIG_WLAN_FEATURE_11W=y
-#-----------------------------------------------------------------------------
 CONFIG_QCOM_VOWIFI_11R=y
 CONFIG_ENABLE_LINUX_REG=y
 CONFIG_WLAN_OFFLOAD_PACKETS=y
