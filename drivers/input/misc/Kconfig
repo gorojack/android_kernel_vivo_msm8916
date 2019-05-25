@@ -819,16 +819,6 @@ config SENSORS_AKM09911
 	  To compile this driver as a module, choose M here: the
 	  module will be called akm09911.
 
-config SENSORS_AKM09912
-	tristate "AKM09912 3-axis electronic compass sensor driver"
-	depends on I2C
-	help
-	  Say Y here if you want to enable the akm09912 ecompass sensor
-	  driver.
-
-	  To compile this driver as a module, choose M here: the
-	  module will be called akm09912.
-
 config SENSORS_AKM8963
 	tristate "AKM8963 3-axis electronic compass sensor driver"
 	depends on I2C
@@ -839,33 +829,6 @@ config SENSORS_AKM8963
 
 	  To compile this driver as a module, choose M here: the
 	  module will be called akm8963.
-
-config SENSORS_YAS532
-	tristate "YAS532 Geomagnetic Sensor"
-	depends on I2C
-	help
-	  Say Y here if you want to enable the YAS532 magnetic sensor
-	  driver.
-	  To compile this driver as a module, choose M here: the
-	  module will be called yas532.
-
-config SENSORS_YAS533
-	tristate "YAS533 Geomagnetic Sensor"
-	depends on I2C
-	help
-	  Say Y here if you want to enable the YAS533 magnetic sensor
-	  driver.
-	  To compile this driver as a module, choose M here: the
-	  module will be called yas533.
-
-config SENSORS_YAS537
-	tristate "YAS537 Geomagnetic Sensor"
-	depends on I2C
-	help
-	  Say Y here if you want to enable the YAS537 magnetic sensor
-	  driver.
-	  To compile this driver as a module, choose M here: the
-	  module will be called yas537.
 
 config SENSORS_STK3X1X
 	tristate "STK3X1X device driver"
@@ -1050,11 +1013,5 @@ config SENSORS_YL_PARAMS
 	help
 	  If you say yes here you get support for Yulong/Coolpad's sensor
 	  calibration parameter driver.
-
-config TMD2771_PLSENSOR
-	tristate "TAOS tmd2771 P/L sensor"
-	depends on I2C
-	help
-	  This option enables support for the TAOS tmd2771 P/L sensor.
 endif
 

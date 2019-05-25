@@ -84,13 +84,11 @@ obj-$(CONFIG_TOUCHSCREEN_SYNAPTICS_DSX_FW_UPDATE) 	+= synaptics_fw_update.o
 obj-$(CONFIG_TOUCHSCREEN_SYNAPTICS_I2C_RMI4)		+= synaptics_i2c_rmi4.o
 
 obj-$(CONFIG_TOUCHSCREEN_GT9XX)		+= gt9xx/
-obj-$(CONFIG_TOUCHSCREEN_GT9XX_v28)	+= gt9xx_v2.8/
 obj-$(CONFIG_TOUCHSCREEN_GT9XX_HQ)	+= gt9xx_hq/
 obj-$(CONFIG_TOUCHSCREEN_GT9XX_YL)	+= gt9xx_yl/
 obj-$(CONFIG_TOUCHSCREEN_BU21150)	+= bu21150.o
 obj-$(CONFIG_INPUT_MT_WRAPPER)		+= input_mt_wrapper.o
 obj-$(CONFIG_TOUCHSCREEN_IT7260_I2C)    += it7258_ts_i2c.o
-obj-$(CONFIG_TOUCHSCREEN_FT8716)	+= ft8716/
 obj-$(CONFIG_TOUCHSCREEN_HIMAX852XES)	+= himax_852xES/
 
 obj-$(CONFIG_MACH_LONGCHEER)	+= lct_tp_fm_info.o
